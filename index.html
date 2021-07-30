@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Tech-Enthusiast Survey Form</h1>
+    <p id="description">"Let's Enrich Our Abilities Together.."</p>
+    <div>
+      <form id="survey-form">
+        <p id="name-label">Name</p>
+      <input type="text" placeholder="Enter your name" class="form-control" required>
+        <p id="email-label">Email</p>
+        <input type="text" placeholder="Enter your email" class="form-control" required>
+        <p id="college-label">College</p>
+         <input type="text" placeholder="Enter your college name" class="form-control" required>
+        <p id="year-label">Current Academic Year</p>
+        <select id="dropdown" name="year" class="form-control" required>
+          <option disabled selected value>Select Current Year</option>
+          <option value="1st">First Year</option>
+          <option value="2nd">Sceond Year</option>
+          <option value="3rd">Third Year</option>
+          <option value="4th">Fourth Year</option>
+        </select>
+        <p id="age-label" for="number">Age (Optional)</p>
+        <input type="number" name="age" id="number" min="18" max="45" class="form-control" placeholder="Age">
+        <p id="f1">Does problem solving skills helps you to progress faster in Tech-Domain?</p>
+        <label for="Yes"><input id="Yes" type="radio" name="Field" value="Yes" checked>Yes</label>
+        <br/>
+        <label for="No"><input id="No" type="radio" name="Field" value="No">No</label>
+        <br/>
+        <label for="Maybe"><input id="Maybe" type="radio" name="Field" value="Maybe">Maybe</label>
+        <p id="lang-label">Which Programming Language do you prefer the most?</p>
+        <select id="Lang" name="lang" class="form-control" required>
+          <option disabled selected value> Select an option </option>
+          <option value="Java">Java</option>
+          <option value="C++">C++</option>
+          <option value="C#">C#</option>
+          <option value="Kotlin">Kotlin</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="Scala">Scala</option>
+          <option value="Swift">Swift</option>
+          <option value="Ruby">Ruby</option>
+          <option value="Haskell">Hask</option>
+          <option value="Html">Html</option>
+        </select>
+        <p id="f-label">Which of the following feilds fascinates you?</p> 
+        <label><input name="You" type="checkbox" class="Input-Checkbox" value="Competative Programming">Competative Programming</label>
+        <br/>
+          <label><input name="You" type="checkbox" class="Input-Checkbox" value="Front-end Development">Front-end Development</label>
+        <br/>
+         <label><input name="You" type="checkbox" class="Input-Checkbox" value="Back-end Development">Back-end Development</label>
+        <br/>
+         <label><input name="You" type="checkbox" class="Input-Checkbox" value="Full Stack Development">Full Stack Development</label>
+        <br/>
+         <label><input name="You" type="checkbox" class="Input-Checkbox" value="Data Science">Data Science</label>
+        <br/>
+         <label><input name="You" type="checkbox" class="Input-Checkbox" value="Machine Learning">Machine Learning</label>
+        <br/>
+        <label><input name="You" type="checkbox" class="Input-Checkbox" value="Cyber Security">Cyber Security</label>
+        <br/>
+        <label><input name="You" type="checkbox" class="Input-Checkbox" value="Artificial Intelligence">Artificial Intelligence</label>
+        <br/>
+        <label><input name="You" type="checkbox" class="Input-Checkbox" value="Android Development">Android Development</label>
+        <br/>
+        <label><input name="You" type="checkbox" class="Input-Checkbox" value="Graphics Designing">Graphics Designing</label>
+        <p id="word-label">Any Valuable words ,If you would like to share !</p>
+        <input type="text" placeholder="Commemt Here.." class="form-control-1">
+        <br/>
+        <button type="submit">Submit</button>
+      </form>
+        </div> 
+</body>
+</html>

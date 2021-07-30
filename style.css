@@ -1,0 +1,120 @@
+body{
+    background-image:url('https://www.smallbizdaily.com/wp-content/uploads/2020/08/shutterstock_749021593-1.jpg')
+   
+  }
+  #title{
+    text-align: center;
+    color: purple;
+    font-size:50px;
+    font-family: 'Staatliches', cursive;
+    margin-top: 50px;
+  }
+  #description{
+    text-align: center;
+    color: silver;
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+  }
+  #survey-form{
+   margin-left: 100px;
+    font-size: 30px;
+  
+  }
+  div{
+    background-color: cyan;
+      opacity: 0.8;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .form-control{
+    font-size: 30px;
+    border-color: blue;
+    border-radius:10px;
+    width: 900px;
+    height: 50px;
+  }
+  p{
+     font-size:40px;
+  }
+  #name-label{
+    margin: 10px;
+     margin-right: 750px;
+    margin-top: 30px;
+  }
+  #email-label{
+    margin: 10px;
+     margin-right: 750px;
+    margin-top: 70px;
+  }
+  #college-label{
+    margin: 10px;
+     margin-right: 725px;
+    margin-top: 70px;
+  }
+  #year-label{
+    margin: 10px;
+     margin-right: 460px;
+    margin-top: 70px;
+  }
+  #age-label{
+    margin: 10px;
+     margin-right: 600px;
+    margin-top: 70px;
+  }
+  #f1{
+    margin-top: 70px;
+  }
+  label{
+   font-size: 40px;
+    margin: 50px;
+  }
+  #lang-label{
+    margin: 10px;
+    margin-top: 70px;
+  }
+  #f-label{
+    margin-top: 70px;
+  }
+  #word-label{
+    margin:10px;
+    margin-top: 70px;
+  }
+  .form-control-1{
+    font-size: 30px;
+    border-color: blue;
+    width: 900px;
+    height: 150px;
+  }
+  button{
+    width:400px;
+    height:50px;
+    margin-left: 240px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: blue; 
+    margin-bottom: 30px;
+    color: white;
+    border-width: 5px;
+  }
+  button:hover {
+      transform: scale(1.1);
+      animation-name: background-color ;
+      animation-duration: 500ms;
+      animation-fill-mode: forwards;
+  }  
+  @keyframes background-color{
+      100%{
+          background-color: rgb(71, 119, 138);
+      }
+    }
+    input[type=checkbox] {
+      transform: scale(2);
+      -ms-transform: scale(2);
+      -webkit-transform: scale(2);
+      padding: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+  }
